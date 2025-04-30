@@ -24,6 +24,7 @@ extern crate alloc;
 use alloc::vec::Vec;
 use core::result;
 use core::fmt;
+use core::marker::PhantomData;
 use ethereum::Log;
 use ethereum_types::{Address, Bloom};
 use scale_codec::{Decode, Encode};
