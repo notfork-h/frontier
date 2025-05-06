@@ -81,44 +81,44 @@ thiserror = "1.0"
 tokio = "1.38.0"
 
 # Substrate Client
-sc-basic-authorship = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-block-builder = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-chain-spec = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
+sc-basic-authorship = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-block-builder = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-chain-spec = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
 sc-cli = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
-sc-client-api = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
+sc-client-api = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
 sc-client-db = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
-sc-consensus = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-consensus-aura = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-consensus-grandpa = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-consensus-manual-seal = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-executor = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-keystore = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-network = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-network-common = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-network-sync = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-offchain = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-rpc = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-rpc-api = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
+sc-consensus = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-consensus-aura = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-consensus-grandpa = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-consensus-manual-seal = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-executor = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-keystore = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-network = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-network-common = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-network-sync = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-offchain = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-rpc = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-rpc-api = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
 sc-service = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
-sc-telemetry = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-transaction-pool = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-transaction-pool-api = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sc-utils = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
+sc-telemetry = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-transaction-pool = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-transaction-pool-api = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sc-utils = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
 # Substrate Primitive
 sp-api = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
 sp-block-builder = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
-sp-blockchain = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-sp-consensus = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
+sp-blockchain = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+sp-consensus = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
 sp-consensus-aura = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
 sp-consensus-grandpa = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
 sp-core = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
 sp-crypto-hashing = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
-sp-database = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
+sp-database = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
 sp-externalities = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
 sp-genesis-builder = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
 sp-inherents = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
 sp-io = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
-sp-keyring = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
+sp-keyring = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
 sp-offchain = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
 sp-runtime = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
 sp-runtime-interface = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
@@ -143,16 +143,16 @@ pallet-grandpa = { git = "https://github.com/unforkableorg/polkadot-sdk", branch
 pallet-sudo = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
 pallet-timestamp = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
 pallet-transaction-payment = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
-pallet-transaction-payment-rpc = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
+pallet-transaction-payment-rpc = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
 pallet-transaction-payment-rpc-runtime-api = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
 pallet-utility = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
 # Substrate Utility
-frame-benchmarking-cli = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-prometheus-endpoint = { package = "substrate-prometheus-endpoint", git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-substrate-build-script-utils = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-substrate-frame-rpc-system = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-substrate-test-runtime-client = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
-substrate-wasm-builder = { git = "https://github.com/unforkableorg/polkadot-sdk", tag="polkadot-v1.18.1"}
+frame-benchmarking-cli = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+prometheus-endpoint = { package = "substrate-prometheus-endpoint", git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+substrate-build-script-utils = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+substrate-frame-rpc-system = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+substrate-test-runtime-client = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
+substrate-wasm-builder = { git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20"}
 
 # XCM
 xcm = { package = "staging-xcm", git = "https://github.com/unforkableorg/polkadot-sdk", branch = "staking-erc20", default-features = false }
