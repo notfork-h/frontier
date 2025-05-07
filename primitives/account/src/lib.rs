@@ -163,6 +163,15 @@ impl From<[u8; 32]> for AccountId20 {
 		Self(buffer)
 	}
 }
+impl From<AccountId20> for [u8; 32] {
+    fn from(id: AccountId20) -> [u8; 32] {
+        let mut out = [0u8; 32];
+        // on choisit de right‑pad : les 20 octets de l’AccountId20
+        // sont copiés dans les 20 derniers octets du buffer 32
+        out[12..32].copy_from_slice(&id.0);
+        out
+    }
+}
 
 impl From<AccountId32> for AccountId20 {
 	fn from(account: AccountId32) -> Self {
